@@ -84,5 +84,5 @@ I am not entirely sure how stable the HTML format Factiva exports is. As the HTM
 Using the HTML example file `Factiva-example.html` stored in the repository:
 
 ```
-output_df <- factiva_parser("/Users/bernhardclemm/Dropbox/Academia/Apps/factiva-parsing/Factiva-example.html")
+output_df <- factiva_parser("./Factiva-example.html")
 ```
